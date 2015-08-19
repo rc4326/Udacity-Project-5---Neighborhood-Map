@@ -1,0 +1,20 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "dummy.com:3000"
+  },
+  "facebook": {
+    "key": "fcz86jmzhnxjh8ujd6sphz5crzg345y7",
+    "secret": "JjXNvDdtjR6Sfc8GGzJvQKUy8djjSC3kQMAkjhX7Tvq",
+    "callback": "/handle_facebook_callback",
+    "scope": [
+      "user_groups",
+      "user_likes"
+    ]
+  },
+  "twitter": {
+    "key": "[CONSUMER_KEY]",
+    "secret": "[CONSUMER_SECRET]",
+    "callback": "/handle_twitter_callback"
+  }
+}
