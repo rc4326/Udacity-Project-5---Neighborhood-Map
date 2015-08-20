@@ -21,9 +21,9 @@ function initMap() {
 		}
 
 	function addMarker(loc, name, icon) {
-	console.log(loc +" "+ name);
+
 	var location = new google.maps.LatLng(loc);
-	console.log(location);
+
 		var marker = new google.maps.Marker({
 			position: loc,
 			icon: icon,
@@ -31,7 +31,6 @@ function initMap() {
 			map: map
 		}); 
 		markers.push(marker);
-		console.log(markers.length);
 	setMapOnAll(map);
 	}; 
 	
@@ -53,12 +52,12 @@ var myIcon = data.icon;
 function setMapOnAll(map) {
 	  for (var i = 0; i < markers.length; i++) {
     markers[i].setMap(map);
-		console.log(markers[i]);
-  }
-}
+
+  };
+};
 
 
 function clearMarkers() {
   setMapOnAll(null);
 	markers = [];
-}
+};

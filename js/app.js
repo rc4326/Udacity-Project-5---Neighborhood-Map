@@ -31,18 +31,48 @@ var runLocations = [
 		}
 ];
 
-var eatLocations = [{
+var eatLocations = [
+{
     name: "Chipotle",
-    menu: "American Mexican",
+    menu: "lunch dinner",
     type: "fast casual",
     cost: "$$$",
 		icon: "img/marker_green.png",
     lat: 41.522177,
     lng: -88.145398
 
-}];
+},
+{
+	name: "Portillos",
+	menu: "lunch, dinner",
+	type: "fast casual",
+	cost: "$$$",
+	icon: "img/marker_green.png",
+	lat: 41.543106,
+	lng: -88.199733
+},
+{
+	name: "Shooters Roadhouse",
+	menu: "dinner",
+	type: "casual dining",
+	cost: "$$$$",
+	icon: "img/marker_green.png",
+	lat: 41.521379,
+	lng: -88.203714
+},
+{
+	name: "Chicken n Spice",
+	menu: "lunch, dinner",
+	type: "fast food",
+	cost: "$$",
+	icon: "img/marker_green.png",
+	lat: 41.528891,
+	lng: -88.081630
+}
+];
 
-var shopLocations = [{
+var shopLocations = [
+{
     name: "Louis Joliet Mall",
     type: "Retail Mall",
     price: "$$$$",
@@ -50,7 +80,24 @@ var shopLocations = [{
     lat: 41.576290,
     lng: -88.165566
 
-}];
+},
+{
+		name: "Hill Crest Shopping Center",
+		type: "Outdoor Mall",
+		price: "$$",
+		icon: "img/marker_purple.png",
+		lat: 41.552988,
+		lng: -88.127024
+},
+{
+	name: "Downtown Lockport",
+	type: "Boutique",
+	price: "$$$",
+	icon: "img/marker_purple.png",
+	lat: 41.589044,
+	lng: -88.057673
+}
+];
 
 var ModelView = function() {
 
