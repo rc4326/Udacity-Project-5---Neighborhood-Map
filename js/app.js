@@ -31,69 +31,38 @@ var shopLocations = [{
 
 }];
 
-var myTown = {
-    lat: 41.525,
-    lng: -88.081
-};
-
-		function initMap() {
-    var myTown = {
-        lat: 41.525,
-        lng: -88.081
-    };
-    var mapOptions = {
-        center: myTown,
-        zoom: 12
-    };
-    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-		viewModel(map);
-			
-		};	
-
-
-var ModelView = function(data, map) {
+var ModelView = function() {
 
     var self = this;
 
-	console.log(data.lat);
-	var myLat = data.lat;
-	
-	function addMarker() {
-		var LatLng = {lat: 41.525, lng: -88.081};
-		var marker = new google.maps.Marker({
-			position: LatLng,
-			title: "Home",
-			setMap: map
-		}); 
-	}; addMarker();
 
-	console.log("don't run this");
+
 		
 };
 
 var viewModel = function(map) {
-	
-		this.markers = ko.observableArray([]);
+	var self = this;
+		
+		var markers = ko.observableArray([]);
 		
 		this.runClick = function() {
-			runLocations.forEach(function(runItem) {
-				self.markers.push(new ModelView(runItem));
-				
+			
+					runLocations.forEach(function(item) {
+				markers.push(new display_loc(item));
 			});
 		}
 		this.eatClick = function() {
-			eatLocations.forEach(function(eatItem) {
-				self.markers.push(new ModelView(eatItem));
-	
-			});
-		}
+					 	eatLocations.forEach(function(item) {
+				markers.push(new display_loc(item));
+				});
+			};
+		
 		
 		this.shopClick = function() {
-			shopLocations.forEach(function(shopItem) {
-				self.markers.push(new ModelView(shopItem));
+					 	shopLocations.forEach(function(item) {
+				markers.push(new display_loc(item));
 			});
-		}
+		};
 	
 };
 ko.applyBindings(new viewModel());
