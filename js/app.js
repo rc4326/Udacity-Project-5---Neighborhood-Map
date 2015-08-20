@@ -36,9 +36,7 @@ var myTown = {
     lng: -88.081
 };
 
-//Map Creation
-
-function initMap() {
+		function initMap() {
     var myTown = {
         lat: 41.525,
         lng: -88.081
@@ -46,68 +44,56 @@ function initMap() {
     var mapOptions = {
         center: myTown,
         zoom: 12
-    }
+    };
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-    ModelView(map);
-};
+
+		viewModel(map);
+			
+		};	
 
 
-var ModelView = function(data) {
+var ModelView = function(data, map) {
 
     var self = this;
 
-    this.lat = ko.observable(data.lat);
-    this.lng = ko.observable(data.lng);
-    this.name = ko.observable(data.name);
+	console.log(data.lat);
+	var myLat = data.lat;
+	
+	function addMarker() {
+		var LatLng = {lat: 41.525, lng: -88.081};
+		var marker = new google.maps.Marker({
+			position: LatLng,
+			title: "Home",
+			setMap: map
+		}); 
+	}; addMarker();
 
-    var myLatlng = new google.maps.LatLng(data.lat + "," + data.lng);
-
-    var create_Markers = function(map) {
-
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            title: data.name
-        });
-        marker.setMap(map);
-    };
-    console.log("this ran");
-    console.log(data.lat + "," + data.lng);
-    create_Markers();
-
+	console.log("don't run this");
+		
 };
 
 var viewModel = function(map) {
-
-    var self = this;
-
-    this.run = ko.observableArray([]);
-    this.eat = ko.observableArray([]);
-    this.shop = ko.observableArray([]);
-
-    this.runClick = function() {
-        runLocations.forEach(function(runItem) {
-            self.run.push(new ModelView(runItem));
-        });
-
-    };
-
-    var eat = function() {
-        eatLocations.forEach(function(eatItem) {
-            self.eat.push(new ModelView(eatItem));
-
-        });
-    };
-
-    var shop = function() {
-        shopLocations.forEach(function(shopItem) {
-            self.shop.push(new ModelView(shopItem));
-
-        });
-    };
-
-    this.currentLocation = ko.observable(this.run()[0]);
+	
+		this.markers = ko.observableArray([]);
+		
+		this.runClick = function() {
+			runLocations.forEach(function(runItem) {
+				self.markers.push(new ModelView(runItem));
+				
+			});
+		}
+		this.eatClick = function() {
+			eatLocations.forEach(function(eatItem) {
+				self.markers.push(new ModelView(eatItem));
+	
+			});
+		}
+		
+		this.shopClick = function() {
+			shopLocations.forEach(function(shopItem) {
+				self.markers.push(new ModelView(shopItem));
+			});
+		}
+	
 };
-
-
 ko.applyBindings(new viewModel());
