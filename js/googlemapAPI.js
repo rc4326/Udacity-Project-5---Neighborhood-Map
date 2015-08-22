@@ -15,7 +15,8 @@ function initMap() {
 
     var mapOptions = {
         center: myTown,
-        zoom: 12
+        zoom: 12,
+				streetViewControl: true
     };
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
