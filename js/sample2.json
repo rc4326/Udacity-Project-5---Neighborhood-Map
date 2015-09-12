@@ -1,0 +1,362 @@
+{
+    "response": {
+        "meta": {
+            "hits": 5463,
+            "time": 8,
+            "offset": 0
+        },
+        "docs": [{
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/09\/10\/us\/ap-us-terror-group-arrests.html",
+            "snippet": "An Illinois Army National Guard soldier and his cousin are expected to plead guilty to charges they conspired to provide material support to the Islamic State group, according to federal authorities.",
+            "lead_paragraph": "An Illinois Army National Guard soldier and his cousin are expected to plead guilty to charges they conspired to provide material support to the Islamic State group, according to federal authorities.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "Illinois Cousins May Change Pleas to Guilty in Terror Case",
+                "print_headline": "Illinois Cousins May Change Pleas to Guilty in Terror Case"
+            },
+            "keywords": [],
+            "pub_date": "2015-09-10T11:00:40Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "U.S.",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "55f19beb7988106f7bdc67a5",
+            "word_count": "261"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/09\/07\/us\/ap-us-officer-shot-manhunt-funeral.html",
+            "snippet": "Several hundred police officers from around the country attended a funeral Monday for a suburban Chicago lieutenant shot and killed last week, and residents of the area turned out by the thousands to watch the hearse go by.",
+            "lead_paragraph": "Several hundred police officers from around the country attended a funeral Monday for a suburban Chicago lieutenant shot and killed last week, and residents of the area turned out by the thousands to watch the hearse go by.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "Hundreds of Officers Attend Funeral for Illinois Lieutenant",
+                "print_headline": "Hundreds of Officers Attend Funeral for Illinois Lieutenant"
+            },
+            "keywords": [],
+            "pub_date": "2015-09-07T10:24:30Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "U.S.",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "55ed9ee2798810349b01fb35",
+            "word_count": "432"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/09\/04\/us\/ap-us-harley-davidson-custom-show.html",
+            "snippet": "Gearheads converged on the Harley-Davidson Museum on Friday to show off, talk shop and get started on a weekend motorcycle rally and custom bike show.",
+            "lead_paragraph": "Gearheads converged on the Harley-Davidson Museum on Friday to show off, talk shop and get started on a weekend motorcycle rally and custom bike show.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "Harley Riders Rumble Into Milwaukee for Rally, Bike Show",
+                "print_headline": "Harley Riders Rumble Into Milwaukee for Rally, Bike Show"
+            },
+            "keywords": [],
+            "pub_date": "2015-09-04T18:58:26Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "U.S.",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "55ea22b579881016ad774074",
+            "word_count": "484"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2015\/08\/30\/travel\/lake-michigan-tour.html",
+            "snippet": "Chicago. Sand dunes. A ferry crossing. A voyage reveals striking topography, time-worn communities and the reassuring permanence of an unchanging lake amid it all.",
+            "lead_paragraph": "Chicago. Sand dunes. A ferry crossing. A voyage reveals striking topography, time-worn communities and the reassuring permanence of an unchanging lake amid it all.",
+            "abstract": null,
+            "print_page": "1",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2015\/08\/30\/travel\/30LAKEMICHIGANJP2\/30LAKEMICHIGANJP2-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2015\/08\/30\/travel\/30LAKEMICHIGANJP2\/30LAKEMICHIGANJP2-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2015\/08\/30\/travel\/30LAKEMICHIGANJP2\/30LAKEMICHIGANJP2-articleLarge.jpg",
+                "height": 410,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2015\/08\/30\/travel\/30LAKEMICHIGANJP2\/30LAKEMICHIGANJP2-articleLarge.jpg",
+                    "xlargeheight": "410"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2015\/08\/30\/travel\/30LAKEMICHIGANJP2\/30LAKEMICHIGANJP2-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2015\/08\/30\/travel\/30LAKEMICHIGANJP2\/30LAKEMICHIGANJP2-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "A Tour of Lake Michigan, My Inland Sea",
+                "print_headline": "A Grand Tour of a Great Lake"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "Y",
+                "name": "subject",
+                "value": "Travel and Vacations"
+            }, {
+                "rank": "2",
+                "is_major": "Y",
+                "name": "glocations",
+                "value": "Chicago (Ill)"
+            }, {
+                "rank": "3",
+                "is_major": "Y",
+                "name": "glocations",
+                "value": "Lake Michigan"
+            }, {
+                "rank": "4",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Summer (Season)"
+            }, {
+                "rank": "5",
+                "is_major": "Y",
+                "name": "glocations",
+                "value": "Illinois"
+            }],
+            "pub_date": "2015-08-30T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Travel",
+            "section_name": "Travel",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Rich",
+                    "rank": 1,
+                    "lastname": "COHEN"
+                }],
+                "original": "By RICH COHEN"
+            },
+            "type_of_material": "News",
+            "_id": "55ded1a179881011cbc5c56a",
+            "word_count": "4236"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/07\/12\/sports\/ap-car-nhra.html",
+            "snippet": "Tony Schumacher earned his 80th career victory when he won the Top Fuel category on Sunday at the Route 66 NHRA Nationals.",
+            "lead_paragraph": "Tony Schumacher earned his 80th career victory when he won the Top Fuel category on Sunday at the Route 66 NHRA Nationals.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "Schumacher Wins Top Fuel at Route 66 NHRA Nationals",
+                "print_headline": "Schumacher Wins Top Fuel at Route 66 NHRA Nationals"
+            },
+            "keywords": [],
+            "pub_date": "2015-07-12T19:11:48Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "Sports",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "55a2f4bb79881040b729db48",
+            "word_count": "287"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/07\/07\/us\/ap-us-illinois-train-derailment.html",
+            "snippet": "What was to be a five-hour trip between Chicago and St. Louis turned into a 14-hour ordeal for passengers aboard an Amtrak train due to a truck accident and the derailment of a freight train.",
+            "lead_paragraph": "What was to be a five-hour trip between Chicago and St. Louis turned into a 14-hour ordeal for passengers aboard an Amtrak train due to a truck accident and the derailment of a freight train.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "Freight Train Derailment Causes Ordeal for Amtrak Passengers",
+                "print_headline": "Freight Train Derailment Causes Ordeal for Amtrak Passengers"
+            },
+            "keywords": [],
+            "pub_date": "2015-07-07T20:36:31Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "U.S.",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "559c70d87988100c02d0f7be",
+            "word_count": "132"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2015\/06\/22\/sports\/autoracing\/erik-jones-19-completes-weekend-sweep-with-win-at-atticat-300.html",
+            "snippet": "Erik Jones took the lead from Ryan Blaney with 11 laps remaining and held on to win the Nascar Xfinity Series AttiCat 300.",
+            "lead_paragraph": "Erik Jones took the lead from Ryan Blaney with 11 laps remaining and held on to win the Nascar Xfinity Series AttiCat 300.",
+            "abstract": "Erik Jones wins Nascar Xfinity Series AttiCat 300 auto race.",
+            "print_page": "3",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Erik Jones, 19, Completes Weekend Sweep With Win at AttiCat 300",
+                "content_kicker": "Sports Briefing | Auto Racing",
+                "print_headline": "19-Year-Old Driver Completes Weekend Sweep"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "Y",
+                "name": "subject",
+                "value": "Automobile Racing"
+            }, {
+                "rank": "3",
+                "is_major": "N",
+                "name": "organizations",
+                "value": "National Assn of Stock Car Auto Racing"
+            }, {
+                "rank": "4",
+                "is_major": "N",
+                "name": "persons",
+                "value": "Jones, Erik (1996- )"
+            }],
+            "pub_date": "2015-06-22T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Sports",
+            "section_name": "Sports",
+            "subsection_name": "Auto Racing",
+            "byline": {
+                "contributor": "",
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "Brief",
+            "_id": "5587921b7988100a1460938a",
+            "word_count": "78"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/06\/21\/sports\/ap-car-nascar-xfinity.html",
+            "snippet": "Erik Jones took the lead from Ryan Blaney with 11 laps remaining and held on to win the NASCAR Xfinity Series AttiCat 300 on Sunday at Chicagoland Speedway.",
+            "lead_paragraph": "Erik Jones took the lead from Ryan Blaney with 11 laps remaining and held on to win the NASCAR Xfinity Series AttiCat 300 on Sunday at Chicagoland Speedway.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "Erik Jones Earns Win at Chicagoland Speedway",
+                "print_headline": "Erik Jones Earns Win at Chicagoland Speedway"
+            },
+            "keywords": [],
+            "pub_date": "2015-06-21T15:47:23Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "Sports",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "5587155a7988100a146092a4",
+            "word_count": "311"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/06\/21\/sports\/ap-car-nascar-chicago-ppd.html",
+            "snippet": "The start of the NASCAR Xfinity Series Allicat 300 was postponed by a thunderstorm Saturday night at Chicagoland Speedway.",
+            "lead_paragraph": "The start of the NASCAR Xfinity Series Allicat 300 was postponed by a thunderstorm Saturday night at Chicagoland Speedway.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "NASCAR Xfinity Allicat 300 Postponed by Rain",
+                "print_headline": "NASCAR Xfinity Allicat 300 Postponed by Rain"
+            },
+            "keywords": [],
+            "pub_date": "2015-06-21T01:45:01Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "Sports",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "55864fbf7988103c2de73047",
+            "word_count": "153"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/aponline\/2015\/06\/20\/sports\/ap-car-arca.html",
+            "snippet": "Ryan Reed took the lead on the 31st lap and held it the rest of the way in the 100-lap ARCA Series race on Saturday night at Chicagoland Speedway.",
+            "lead_paragraph": "Ryan Reed took the lead on the 31st lap and held it the rest of the way in the 100-lap ARCA Series race on Saturday night at Chicagoland Speedway.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "Reed Wins ARCA Race in Illinois",
+                "print_headline": "Reed Wins ARCA Race in Illinois"
+            },
+            "keywords": [],
+            "pub_date": "2015-06-20T21:10:55Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "Sports",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "55860fd07988103c2de72fcc",
+            "word_count": "230"
+        }]
+    },
+    "status": "OK",
+    "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved."
+}

@@ -17,10 +17,15 @@
 		<div class="container"><div class="button"><button id="Eat" class="btn btn-success" data-bind="click: eatClick">Eat</button>
 																							<button id="Shop" class="btn btn-sample" data-bind="click: shopClick">Shop</button>
 																							<Button id="Run" class="btn btn-primary" data-bind="click: runClick">Run</button>
-																							<button id="Clear" class="btn btn-default" data-bind="click: clearClick">Clear Markers</button>
+																							<button id="Clear" class="btn btn-default" data-bind="click: clearClick">Clear Locations</button>
 		<input id="sBox"  type="search" placeholder="Search..."></input></div></div>
 	<div id="map" class="container">
-
+<aside>
+<div>
+	<ul data-bind="foreach:foodList">
+		<li data-bind="text: name"></li>
+		</div>
+	</aside>
 	</div>
 
 

@@ -1,4 +1,13 @@
+//api calls
+	//yelp call for food locations
+
+
+		//TODO add call from Strava for run locations
+		
+		//TODO add call from fourSquare for shopping locations
+
 //model
+//load default locations for running, eating, and shopping
 var runLocations = [
 
     {
@@ -88,18 +97,46 @@ var shopLocations = [{
     lng: -88.057673
 }];
 
+var EatPlace = function(eat) {
+		var self = this;
+		
+		this.name = ko.observable(eat.name);
+		this.url = ko.observable(eat.url);
+}
+
+
 var ModelView = function() {
+	
+	var self = this;
 
-    var self = this;
 
+//yelp call to get food location data
 
+	var data;
+	this.foodList = ko.observableArray([]);
+	var eaturl = "http://www.sbcoyne.com/bob/school_lessons/p5/yelpOauth.php";
+		$.ajax({
+      type: "GET",
+      url: eaturl,
+      timeout: 5000,
+      contentType: "application/json",
+      dataType: "json",
+      cache: false,
+		}).done(function(response) {
+			data = response.businesses;
+				
+			data.forEach(function(food){
+					self.foodList.push(new EatPlace(food));
+			});
+					display_food(data);
+		});
 
 
 };
 
 var viewModel = function(map) {
     var self = this;
-
+	 var click;
     var markers = ko.observableArray([]);
 
     this.runClick = function() {
@@ -109,9 +146,14 @@ var viewModel = function(map) {
         });
     }
     this.eatClick = function() {
+			if(click !== 1) {
         eatLocations.forEach(function(item) {
             markers.push(new display_loc(item));
-        });
+						click = 1;
+				});
+					ModelView();
+        };
+			
     };
 
 
@@ -123,7 +165,8 @@ var viewModel = function(map) {
 
     this.clearClick = function() {
         clearMarkers();
-    }
+				click = 0;
+    };
 
 };
 ko.applyBindings(new viewModel());
